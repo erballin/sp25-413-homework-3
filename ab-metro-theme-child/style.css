@@ -1,0 +1,58 @@
+/* 
+Theme Name: Metro Report Child Theme 
+Template: ab-metro-theme
+Author: Apollo Ballinger
+Version: 1.0
+Description: A simple child theme for The Metro Report.
+*/
+
+/* 
+Requirements: style.css — 
+must include the child theme metadata comment block. 
+The Template: field must match the exact directory name of your Assignment 2 parent theme — if this is wrong, the child theme will not activate. Must also contain additional CSS that visibly extends or modifies the parent theme's styles
+ */
+
+body {
+  background-color: #fbf8f3;
+}
+
+header {
+  background-color: #f9f4eb;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  flex-direction: column;
+  h1 {
+    text-align: left !important;
+    border-bottom: 2px solid black;
+  }
+  h1 a {
+    font-family: times !important;
+    color: black;
+    font-size: 50px;
+    &:hover {
+      color: rgb(25, 1, 32);
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+    a {
+      color: black;
+      font-family: times !important;
+      font-size: 17px !important;
+      &:hover {
+        color: rgb(25, 1, 32);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #f9f4eb;
+}
